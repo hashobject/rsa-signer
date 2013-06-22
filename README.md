@@ -23,6 +23,14 @@ user=> (sign "some-string-to-sign" "/Users/podviaznikov/.ssh/id_rsa" "SHA1withRS
 #<byte[] [B@40914272>
 ```
 
+There are 3 options that you can pass as last parameter(algorithm) to this function:
+
+  * RSA - that means that input string will be signed directly with RSA private key.
+  * SHA1withRSA - that means than input string will be hashed using SHA-1 and than signed with RSA private key.
+  * SHA256withRSA - that means than input string will be hashed using SHA-1 and than signed with RSA private key.
+
+
+
 ## License
 
 Copyright © 2013 HashObject Ltd (team@hashobject.com).
