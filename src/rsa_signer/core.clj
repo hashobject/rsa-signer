@@ -30,7 +30,7 @@
     - RSA - that means that input string will be signed directly with RSA private key.
     - SHA1withRSA - that means than input string will be hashed using SHA-1 and than signed with RSA private key.
     - SHA256withRSA - that means than input string will be hashed using SHA-1 and than signed with RSA private key.
-   Method returns signed UTF-8 string.
+   Method returns signed string in form on byte array.
   "
   (sign-bytes-with-private-key
      (.getBytes s)
