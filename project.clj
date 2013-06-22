@@ -1,4 +1,4 @@
-(defproject rsa-signer "0.1.0-SNAPSHOT"
+(defproject rsa-signer "0.1.0"
   :description "A Clojure library for signing strings with private RSA keys."
   :signing {:gpg-key "HashObject Ltd <team@hashobject.com>"}
   :url "https://github.com/hashobject/rsa-signer"
