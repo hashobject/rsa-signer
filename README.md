@@ -7,14 +7,14 @@ on public key cryptography.
 
 ## Install
 
-```shell
+```
 [rsa-signer "0.1.0"]
 ```
 
 
 ## Usage
 
-```shell
+```
 user=> (use 'rsa-signer.core)
 null
 user=> (sign "some-string-to-sign" "/Users/podviaznikov/.ssh/id_rsa" "SHA1withRSA")
