@@ -1,6 +1,6 @@
 # rsa-signer
 
-A Clojure library which has only one method that signs string with RSA private key.
+Clojure library which has only one method that signs string with RSA private key.
 
 Library is heavily inspired by this blog [post](http://nakkaya.com/2012/10/28/public-key-cryptography/)
 on public key cryptography.
