@@ -1,6 +1,6 @@
 (defproject rsa-signer "0.1.0"
   :description "Clojure library for signing strings with private RSA keys."
-  :signing {:gpg-key "HashObject Ltd <team@hashobject.com>"}
+  :signing {:gpg-key "Hashobject Ltd <team@hashobject.com>"}
   :url "https://github.com/hashobject/rsa-signer"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
